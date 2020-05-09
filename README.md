@@ -57,7 +57,7 @@ following tasks: - Increasing the memory of the machine
     
 The following screenshot displays the result of running docker ps after successfully configuring the ELK 
 instance.
-![docker ps](https://github.com/kinga46/CyberSecurity-Project-1-ElkStack/blob/master/Images/Kibana_image.png)
+![docker ps](https://github.com/kinga46/CyberSecurity-Project-1-ElkStack/blob/master/Images/docker_ps_image.PNG)
   
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: - DVMA-VM1
