@@ -43,7 +43,7 @@ Access Policies The machines on the internal network are not exposed to the publ
 JumpBoxProvisioner machine can accept connections from the Internet. Access to this machine is only allowed from 
 the following IP addresses: 
 
-- Public IP: 76.190.131.118
+- Public IP: Personal PC Public IP
     
 Machines within the network can only be accessed by JumpBoxProvisioner. 
 
@@ -53,8 +53,8 @@ Machines within the network can only be accessed by JumpBoxProvisioner.
 A summary of the access policies in place can be found in the table below.
 | Name | Publicly Accessible | Allowed IP Addresses|
 | ------|:------:|------:|
-| JumpBoxProvisioner |No | 76.190.131.118|
-| RedTeamELKEast | No | 76.190.131.118, 38.91.83.253, 104.40.68.140, 104.42.41.38| 
+| JumpBoxProvisioner |No | Personal PC Public IP|
+| RedTeamELKEast | No | Personal PC Public IP, 38.91.83.253, 104.40.68.140, 104.42.41.38| 
 | RedTeamELKEast| Yes | 40.118.206.133|
 |DVWA-VM1 | No | 10.0.0.4 40.118.206.133|
 | DVWA-VM2 | No | 10.0.0.4 40.118.206.133|
